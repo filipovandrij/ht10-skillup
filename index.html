@@ -1,264 +1,359 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body>
+  <body>
     <header class="header">
-        <div class="container">
-            <div class="row">
-                <div class="col-3">
-                    <div class="logo">
-                        <a href="#"><img src="img/logo.png" alt="logotype"></a>
-                    </div>
-                </div>
-                <div class="col-6">
-                    <nav>
-                        <ul class="menu">
-                            <li><a href="">Home</a></li>
-                            <li><a href="">Products <span class="arrow_down"> &gt;</span></a>
-                                <ul class="dropdown">
-                                    <li> <a href=""> Lorem ipsum dolor</a></li>
-                                    <li> <a href=""> Stamet</a></li>
-                                    <li> <a href=""> Consectetur adipisicing
-                                        </a></li>
-                                    <li> <a href=""> Tempor incididunt</a></li>
-                                    <li> <a href=""> Dolore magna aliqua</a></li>
-                                    <li> <a href=""> Ut enim ad minim veniam</a>
-                                    </li>
-                                    <li> <a href=""> Quis nostrud</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="">Shoping</a></li>
-                            <li><a href="">Payment</a></li>
-                        </ul>
-                    </nav>
-                </div>
-                <div class="col-3">
-                    <div class="search_magazine_menu">
-                        <form action="">
-                            <input type="text" placeholder="search" name="search">
-                            <button name="search"><img src="img/search.png" alt="search"></button>
-                        </form>
-                        <div class="magazine">
-                            <img src="img/magazine.png" alt="">
-                            <div class="number">4</div>
-                        </div>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-3">
+            <div class="logo">
+              <a href="#"><img src="img/logo.png" alt="logotype" /></a>
             </div>
+          </div>
+          <div class="col-6">
+            <nav>
+              <ul class="menu">
+                <li><a href="">Home</a></li>
+                <li>
+                  <a href="">Products <span class="arrow_down"> &gt;</span></a>
+                  <ul class="dropdown">
+                    <li><a href=""> Lorem ipsum dolor</a></li>
+                    <li><a href=""> Stamet</a></li>
+                    <li><a href=""> Consectetur adipisicing </a></li>
+                    <li><a href=""> Tempor incididunt</a></li>
+                    <li><a href=""> Dolore magna aliqua</a></li>
+                    <li><a href=""> Ut enim ad minim veniam</a></li>
+                    <li><a href=""> Quis nostrud</a></li>
+                  </ul>
+                </li>
+                <li><a href="">Shoping</a></li>
+                <li><a href="">Payment</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="col-3">
+            <div class="search_magazine_menu">
+              <form action="">
+                <input type="text" placeholder="search" name="search" />
+                <button name="search">
+                  <img src="img/search.png" alt="search" />
+                </button>
+              </form>
+              <div class="magazine">
+                <img src="img/magazine.png" alt="" />
+                <div class="number">4</div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </header>
     <main>
-        <div class="container">
-            <div class="row">
-                <aside class="col-3"></aside>
-                <section class="card_with_product" >
-                    <section class="main_title_top col-12">
-                        <div class="bread_crumbs col-12"><p>Home page > Products > Laptops and Tablets</p></div>
-                        <div class="title_main_text row">
-                            <h2 class="page_title col-8">Laptops and Tablets</h2>
-                            <ul class="col-4">
-                                <li>sort by price <span>></span>
-                                <ul class="dropdown_second" >
-                                    <li>sort by name</li>
-                                    <li>sort by date</li>
-                                    <li>sort by popularity</li>
-                                </ul>
-                                </li>
-                            </ul>
-                        </div>
-                    </section>
-                    <section class="col-12">
-                        <div class="row">
-                                <div class="card col-4">
-                                    <div class="image_product">
-                                        <div><img src="img/card_img_1.png" alt=""></div>
-                                        <div><img src="img/full_img.png" alt="full_img"></div>
-                                        <div><img src="img/like.png" alt="like"></div>
-                                    </div>
-                                    <div class="card_info">
-                                        <h3>#1 Device Name</h3>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                        <p><span>TYPE:</span>Laptop</p>
-                                        <p><span>Screen size:</span>7 inches</p>
-                                        <p><span>ram:</span>1GB</p>
-                                        <p class="price">$599 <sup>25</sup></p>
-                                        <button class="btn_info">MORE DETAILS</button>
-                                        <button class="btn_add">ADD TO CARD <img src="img/white_magazine.png"
-                                                alt="magazine_white"></button>
-                                    </div>
-                                </div>
-                                <div class="card col-4">
-                                    <div class="image_product">
-                                        <div><img src="img/x_box.png" alt=""></div>
-                                        <div><img src="img/full_img.png" alt="full_img"></div>
-                                        <div><img src="img/like.png" alt="like"></div>
-                                    </div>
-                                    <div class="card_info">
-                                        <h3>#1 Device Name</h3>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                        <p><span>TYPE:</span>Laptop</p>
-                                        <p><span>Screen size:</span>7 inches</p>
-                                        <p><span>ram:</span>1GB</p>
-                                        <p class="price">$1250 <sup>99</sup></p>
-                                        <button class="btn_info">MORE DETAILS</button>
-                                        <button class="btn_add">ADD TO CARD <img src="img/white_magazine.png"
-                                                alt="magazine_white"></button>
-                                    </div>
-                                </div>
-                                <div class="card col-4">
-                                    <div class="image_product">
-                                        <div><img src="img/watch.png" alt=""></div>
-                                        <div><img src="img/full_img.png" alt="full_img"></div>
-                                        <div><img src="img/like.png" alt="like"></div>
-                                    </div>
-                                    <div class="card_info">
-                                        <h3>#1 Device Name</h3>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                        <p><span>TYPE:</span>Laptop</p>
-                                        <p><span>Screen size:</span>7 inches</p>
-                                        <p><span>ram:</span>1GB</p>
-                                        <p class="price">$399 <sup>50</sup></p>
-                                        <button class="btn_info">MORE DETAILS</button>
-                                        <button class="btn_add">ADD TO CARD <img src="img/white_magazine.png"
-                                                alt="magazine_white"></button>
-                                    </div>
-                                </div>
-                            </div>
-                    </section>
-                    <section class="col-12">
-                        <div class="row">
-                                <div class="card col-4">
-                                    <div class="image_product">
-                                        <div><img src="img/card_img_1.png" alt=""></div>
-                                        <div><img src="img/full_img.png" alt="full_img"></div>
-                                        <div><img src="img/like.png" alt="like"></div>
-                                    </div>
-                                    <div class="card_info">
-                                        <h3>#1 Device Name</h3>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                        <p><span>TYPE:</span>Laptop</p>
-                                        <p><span>Screen size:</span>7 inches</p>
-                                        <p><span>ram:</span>1GB</p>
-                                        <p class="price">$599 <sup>25</sup></p>
-                                        <button class="btn_info">MORE DETAILS</button>
-                                        <button class="btn_add">ADD TO CARD <img src="img/white_magazine.png"
-                                                alt="magazine_white"></button>
-                                    </div>
-                                </div>
-                                <div class="card col-4">
-                                    <div class="image_product">
-                                        <div><img src="img/x_box.png" alt=""></div>
-                                        <div><img src="img/full_img.png" alt="full_img"></div>
-                                        <div><img src="img/like.png" alt="like"></div>
-                                    </div>
-                                    <div class="card_info">
-                                        <h3>#1 Device Name</h3>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                        <p><span>TYPE:</span>Laptop</p>
-                                        <p><span>Screen size:</span>7 inches</p>
-                                        <p><span>ram:</span>1GB</p>
-                                        <p class="price">$1250 <sup>99</sup></p>
-                                        <button class="btn_info">MORE DETAILS</button>
-                                        <button class="btn_add">ADD TO CARD <img src="img/white_magazine.png"
-                                                alt="magazine_white"></button>
-                                    </div>
-                                </div>
-                                <div class="card col-4">
-                                    <div class="image_product">
-                                        <div><img src="img/watch.png" alt=""></div>
-                                        <div><img src="img/full_img.png" alt="full_img"></div>
-                                        <div><img src="img/like.png" alt="like"></div>
-                                    </div>
-                                    <div class="card_info">
-                                        <h3>#1 Device Name</h3>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                        <p><span>TYPE:</span>Laptop</p>
-                                        <p><span>Screen size:</span>7 inches</p>
-                                        <p><span>ram:</span>1GB</p>
-                                        <p class="price">$399 <sup>50</sup></p>
-                                        <button class="btn_info">MORE DETAILS</button>
-                                        <button class="btn_add">ADD TO CARD <img src="img/white_magazine.png"
-                                                alt="magazine_white"></button>
-                                    </div>
-                                </div>
-                            </div>
-                    </section>
-                    <section class="col-12">
-                        <div class="row">
-                                <div class="card col-4">
-                                    <div class="image_product">
-                                        <div><img src="img/card_img_1.png" alt=""></div>
-                                        <div><img src="img/full_img.png" alt="full_img"></div>
-                                        <div><img src="img/like.png" alt="like"></div>
-                                    </div>
-                                    <div class="card_info">
-                                        <h3>#1 Device Name</h3>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                        <p><span>TYPE:</span>Laptop</p>
-                                        <p><span>Screen size:</span>7 inches</p>
-                                        <p><span>ram:</span>1GB</p>
-                                        <p class="price">$599 <sup>25</sup></p>
-                                        <button class="btn_info">MORE DETAILS</button>
-                                        <button class="btn_add">ADD TO CARD <img src="img/white_magazine.png"
-                                                alt="magazine_white"></button>
-                                    </div>
-                                </div>
-                                <div class="card col-4">
-                                    <div class="image_product">
-                                        <div><img src="img/x_box.png" alt=""></div>
-                                        <div><img src="img/full_img.png" alt="full_img"></div>
-                                        <div><img src="img/like.png" alt="like"></div>
-                                    </div>
-                                    <div class="card_info">
-                                        <h3>#1 Device Name</h3>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                        <p><span>TYPE:</span>Laptop</p>
-                                        <p><span>Screen size:</span>7 inches</p>
-                                        <p><span>ram:</span>1GB</p>
-                                        <p class="price">$1250 <sup>99</sup></p>
-                                        <button class="btn_info">MORE DETAILS</button>
-                                        <button class="btn_add">ADD TO CARD <img src="img/white_magazine.png"
-                                                alt="magazine_white"></button>
-                                    </div>
-                                </div>
-                                <div class="card col-4">
-                                    <div class="image_product">
-                                        <div><img src="img/watch.png" alt=""></div>
-                                        <div><img src="img/full_img.png" alt="full_img"></div>
-                                        <div><img src="img/like.png" alt="like"></div>
-                                    </div>
-                                    <div class="card_info">
-                                        <h3>#1 Device Name</h3>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                        <p><span>TYPE:</span>Laptop</p>
-                                        <p><span>Screen size:</span>7 inches</p>
-                                        <p><span>ram:</span>1GB</p>
-                                        <p class="price">$399 <sup>50</sup></p>
-                                        <button class="btn_info">MORE DETAILS</button>
-                                        <button class="btn_add">ADD TO CARD <img src="img/white_magazine.png"
-                                                alt="magazine_white"></button>
-                                    </div>
-                                </div>
-                            </div>
-                    </section>
-                </section>
+      <div class="container">
+        <div class="row">
+          <aside class="col-3">
+            <div class="select_character1">
+              <h3>Device Type</h3>
+              <form>
+                <div>
+                  <input type="radio" id="device_choice1" />
+                  <label for="device_choice1">Laptop</label>
+                </div>
+                <div>
+                  <input type="radio" id="device_choice2" />
+                  <label for="device_choice2">Tablet</label>
+                </div>
+              </form>
             </div>
-        </div>
+            <div class="select_character2">
+              <h3>Color</h3>
+              <form>
+                <div><input type="radio" id="color_choice1" />
+                <label for="color_choice1">Black</label></div>
+                <div><input type="radio" id="color_choice2" />
+                <label for="color_choice2">Red</label></div>
+                <div><input type="radio" id="color_choice3" />
+                <label for="color_choice3">Green</label></div>
+                <div><input type="radio" id="color_choice4" />
+                <label for="color_choice4">Blue</label></div>
+                <div><input type="radio" id="color_choice5" />
+                <label for="color_choice5">Orange</label></div>
+              </form>
+            </div>
+            <div class="select_character3">
+              <h3>Ram</h3>
+              <form>
+                <div><input type="radio" id="ram_choice1" />
+                <label for="ram_choice1">1GB</label></div>
+                <div><input type="radio" id="ram_choice2" />
+                <label for="ram_choice2">2GB</label></div>
+                <div><input type="radio" id="ram_choice3" />
+                <label for="ram_choice3">4GB</label></div>
+                <div><input type="radio" id="ram_choice4" />
+                <label for="ram_choice4">6GB</label></div>
+                <div><input type="radio" id="ram_choice5" />
+                <label for="ram_choice5">8GB</label></div>
+              </form>
+            </div>
+            <div class="aside_btn">
+                <h3>Show more options ...</h3>
+                <button class="btn_info">Submit</button>
+            </div>
+          </aside>
+          <section class="card_with_product">
+            <section class="main_title_top col-12">
+              <div class="bread_crumbs col-12">
+                <p>Home page > Products > Laptops and Tablets</p>
+              </div>
+              <div class="title_main_text row">
+                <h2 class="page_title col-8">Laptops and Tablets</h2>
+                <ul class="col-4">
+                  <li>
+                    sort by price <span>></span>
+                    <ul class="dropdown_second">
+                      <li>sort by name</li>
+                      <li>sort by date</li>
+                      <li>sort by popularity</li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </section>
+            <section class="col-12">
+              <div class="row">
+                <div class="card col-4">
+                  <div class="image_product">
+                    <div><img src="img/card_img_1.png" alt="" /></div>
+                    <div><img src="img/full_img.png" alt="full_img" /></div>
+                    <div><img src="img/like.png" alt="like" /></div>
+                  </div>
+                  <div class="card_info">
+                    <h3>#1 Device Name</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                    <p><span>TYPE:</span>Laptop</p>
+                    <p><span>Screen size:</span>7 inches</p>
+                    <p><span>ram:</span>1GB</p>
+                    <p class="price">$599 <sup>25</sup></p>
+                    <button class="btn_info">MORE DETAILS</button>
+                    <button class="btn_add">
+                      ADD TO CARD
+                      <img src="img/white_magazine.png" alt="magazine_white" />
+                    </button>
+                  </div>
+                </div>
+                <div class="card col-4">
+                  <div class="image_product">
+                    <div><img src="img/x_box.png" alt="" /></div>
+                    <div><img src="img/full_img.png" alt="full_img" /></div>
+                    <div><img src="img/like.png" alt="like" /></div>
+                  </div>
+                  <div class="card_info">
+                    <h3>#1 Device Name</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                    <p><span>TYPE:</span>Laptop</p>
+                    <p><span>Screen size:</span>7 inches</p>
+                    <p><span>ram:</span>1GB</p>
+                    <p class="price">$1250 <sup>99</sup></p>
+                    <button class="btn_info">MORE DETAILS</button>
+                    <button class="btn_add">
+                      ADD TO CARD
+                      <img src="img/white_magazine.png" alt="magazine_white" />
+                    </button>
+                  </div>
+                </div>
+                <div class="card col-4">
+                  <div class="image_product">
+                    <div><img src="img/watch.png" alt="" /></div>
+                    <div><img src="img/full_img.png" alt="full_img" /></div>
+                    <div><img src="img/like.png" alt="like" /></div>
+                  </div>
+                  <div class="card_info">
+                    <h3>#1 Device Name</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                    <p><span>TYPE:</span>Laptop</p>
+                    <p><span>Screen size:</span>7 inches</p>
+                    <p><span>ram:</span>1GB</p>
+                    <p class="price">$399 <sup>50</sup></p>
+                    <button class="btn_info">MORE DETAILS</button>
+                    <button class="btn_add">
+                      ADD TO CARD
+                      <img src="img/white_magazine.png" alt="magazine_white" />
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="col-12">
+              <div class="row">
+                <div class="card col-4">
+                  <div class="image_product">
+                    <div><img src="img/card_img_1.png" alt="" /></div>
+                    <div><img src="img/full_img.png" alt="full_img" /></div>
+                    <div><img src="img/like.png" alt="like" /></div>
+                  </div>
+                  <div class="card_info">
+                    <h3>#1 Device Name</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                    <p><span>TYPE:</span>Laptop</p>
+                    <p><span>Screen size:</span>7 inches</p>
+                    <p><span>ram:</span>1GB</p>
+                    <p class="price">$599 <sup>25</sup></p>
+                    <button class="btn_info">MORE DETAILS</button>
+                    <button class="btn_add">
+                      ADD TO CARD
+                      <img src="img/white_magazine.png" alt="magazine_white" />
+                    </button>
+                  </div>
+                </div>
+                <div class="card col-4">
+                  <div class="image_product">
+                    <div><img src="img/x_box.png" alt="" /></div>
+                    <div><img src="img/full_img.png" alt="full_img" /></div>
+                    <div><img src="img/like.png" alt="like" /></div>
+                  </div>
+                  <div class="card_info">
+                    <h3>#1 Device Name</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                    <p><span>TYPE:</span>Laptop</p>
+                    <p><span>Screen size:</span>7 inches</p>
+                    <p><span>ram:</span>1GB</p>
+                    <p class="price">$1250 <sup>99</sup></p>
+                    <button class="btn_info">MORE DETAILS</button>
+                    <button class="btn_add">
+                      ADD TO CARD
+                      <img src="img/white_magazine.png" alt="magazine_white" />
+                    </button>
+                  </div>
+                </div>
+                <div class="card col-4">
+                  <div class="image_product">
+                    <div><img src="img/watch.png" alt="" /></div>
+                    <div><img src="img/full_img.png" alt="full_img" /></div>
+                    <div><img src="img/like.png" alt="like" /></div>
+                  </div>
+                  <div class="card_info">
+                    <h3>#1 Device Name</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                    <p><span>TYPE:</span>Laptop</p>
+                    <p><span>Screen size:</span>7 inches</p>
+                    <p><span>ram:</span>1GB</p>
+                    <p class="price">$399 <sup>50</sup></p>
+                    <button class="btn_info">MORE DETAILS</button>
+                    <button class="btn_add">
+                      ADD TO CARD
+                      <img src="img/white_magazine.png" alt="magazine_white" />
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="col-12">
+              <div class="row">
+                <div class="card col-4">
+                  <div class="image_product">
+                    <div><img src="img/card_img_1.png" alt="" /></div>
+                    <div><img src="img/full_img.png" alt="full_img" /></div>
+                    <div><img src="img/like.png" alt="like" /></div>
+                  </div>
+                  <div class="card_info">
+                    <h3>#1 Device Name</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                    <p><span>TYPE:</span>Laptop</p>
+                    <p><span>Screen size:</span>7 inches</p>
+                    <p><span>ram:</span>1GB</p>
+                    <p class="price">$599 <sup>25</sup></p>
+                    <button class="btn_info">MORE DETAILS</button>
+                    <button class="btn_add">
+                      ADD TO CARD
+                      <img src="img/white_magazine.png" alt="magazine_white" />
+                    </button>
+                  </div>
+                </div>
+                <div class="card col-4">
+                  <div class="image_product">
+                    <div><img src="img/x_box.png" alt="" /></div>
+                    <div><img src="img/full_img.png" alt="full_img" /></div>
+                    <div><img src="img/like.png" alt="like" /></div>
+                  </div>
+                  <div class="card_info">
+                    <h3>#1 Device Name</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                    <p><span>TYPE:</span>Laptop</p>
+                    <p><span>Screen size:</span>7 inches</p>
+                    <p><span>ram:</span>1GB</p>
+                    <p class="price">$1250 <sup>99</sup></p>
+                    <button class="btn_info">MORE DETAILS</button>
+                    <button class="btn_add">
+                      ADD TO CARD
+                      <img src="img/white_magazine.png" alt="magazine_white" />
+                    </button>
+                  </div>
+                </div>
+                <div class="card col-4">
+                  <div class="image_product">
+                    <div><img src="img/watch.png" alt="" /></div>
+                    <div><img src="img/full_img.png" alt="full_img" /></div>
+                    <div><img src="img/like.png" alt="like" /></div>
+                  </div>
+                  <div class="card_info">
+                    <h3>#1 Device Name</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                    <p><span>TYPE:</span>Laptop</p>
+                    <p><span>Screen size:</span>7 inches</p>
+                    <p><span>ram:</span>1GB</p>
+                    <p class="price">$399 <sup>50</sup></p>
+                    <button class="btn_info">MORE DETAILS</button>
+                    <button class="btn_add">
+                      ADD TO CARD
+                      <img src="img/white_magazine.png" alt="magazine_white" />
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="load_more">
+                Load more ...
+              </div>
+            </section>
+          </section>
+        
+      </div>
     </main>
-    <footer class="footer">Footer</footer>
-
-</body>
-
+    <footer class="footer">
+      <div class="container">
+          ⓒ Copyright 2017
+    </div>
+  </footer>
+  </body>
 </html>

@@ -362,10 +362,6 @@ main{
     margin: 30px 0;
 }
 
-aside{
-    border: red solid 3px;
-}
-
 .bread_crumbs p{
     opacity: 0.502;
 font-size: 14px;
@@ -435,4 +431,94 @@ min-width: 290px;
 
 .card_with_product .col-12{
     margin-top: 30px;
+}
+
+
+
+/* style of aside  */
+
+
+.row>aside{
+    height: 50%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.2);
+
+}
+
+.row aside h3{
+font-size: 21px;
+font-weight: 700;
+text-transform: uppercase;
+}
+
+aside>div{
+    margin: 30px 0;
+}
+
+aside input{
+    margin: 0;
+    appearance: none;
+    border-radius: 0px;
+    height: 10px;
+    width: 10px;
+    color: black;
+    border: 1px solid #fff;
+    margin-right: 10px;
+}
+
+aside input:checked{
+    background-color: #fff;
+}
+
+aside form {
+    margin-top: 25px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+height: 100%;
+width: 100%;
+align-items: flex-start;
+border: none;
+}
+
+
+.select_character2, .select_character3{
+    margin-top: 65px;
+}
+
+
+.aside_btn{
+    margin-top: 55px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.load_more{
+    margin: 40px 0 85px;
+    text-align: center;
+    font-size: 36px;
+line-height: 40px;
+color: #ffffff;
+font-weight: 300;
+}
+
+/* style of footer  */
+
+footer{
+    height: 100px;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.75);
+    align-items: center;
+}
+
+footer>.container{
+    text-align: center;
+    font-size: 21px;
+color: #2c71b8;
+font-weight: 300;
 }
