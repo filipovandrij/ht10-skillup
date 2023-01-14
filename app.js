@@ -13,10 +13,7 @@ for (let i = 0; i < addToCardBtns.length; i++) {
 // let pointLike = document.querySelectorAll(".likes");
 
 // let likeClick = document.querySelectorAll(".click-like");
-// console.log(likeClick);
-// console.log(likeClick[2] + "-tyt");
 // for (let i = 0; i < likeClick.length; i++) {
-//   console.log(likeClick[i]);
 //   likeClick[i].addEventListener("click", function () {
 //     for (let i = 0; i < pointLike.length; i++) {
 //       if (pointLike[i].getAttribute("src") == "img/like.png") {
