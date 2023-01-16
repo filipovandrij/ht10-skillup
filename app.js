@@ -72,3 +72,9 @@ $(document).ready(function () {
     dots: true,
   });
 });
+
+window.addEventListener("scroll", function () {
+  if (pageYOffset > 1200 && pageYOffset < 1300) {
+    modalWindow.classList.add("show");
+  }
+});
