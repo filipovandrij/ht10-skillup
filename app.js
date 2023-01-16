@@ -65,3 +65,10 @@ modalWindow.addEventListener("click", function (e) {
     modalWindow.classList.remove("show");
   }
 });
+
+$(document).ready(function () {
+  $(".sliders").slick({
+    // setting-name: setting-value
+    dots: true,
+  });
+});

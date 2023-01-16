@@ -596,3 +596,47 @@ font-weight: 300;
 .hide{
     display: none;
 }
+
+
+/* slider */
+
+
+.sliders{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sliders>div{
+    font-size: 80px;
+    font-weight: 200;
+    color: #fff;
+    text-align: center;
+}
+
+.underline{
+    border-bottom: 2px solid #fff;
+}
+
+.slick-prev:before, .slick-next:before{
+    content: '\276C';
+    font-weight: 200;
+    font-size: 80px;
+
+}
+.slick-next:before{
+    content: '\276D';
+}
+
+.slick-dots li button:before{
+    content: "";
+    border: 1px solid #fff;
+    width: 10px;
+    height: 10px;
+
+}
+
+.slick-dots li.slick-active button:before{
+    background-color: #fff;
+}
