@@ -28,15 +28,40 @@ for (let i = 0; i < addToCardBtns.length; i++) {
 //ht-18 js likes↓↓↓↓↓
 
 let likeBtns = document.querySelectorAll(".click-like");
-console.log(likeBtns);
 
 likeBtns.forEach((btn) =>
-  btn.addEventListener("click", function () {
+  btn.addEventListener("click", function (e) {
     // if (btn.classList.contains("liked")) {
     //   btn.classList.remove("liked");
     // } else {
     //   btn.classList.add("liked");
     // }
-    btn.classList.toggle("liked");
+    // btn.classList.toggle("liked");
+
+    e.target.classList.toggle("liked");
+    // e.target.style.background = "red";
   })
 );
+
+let detailsBtns = document.querySelectorAll(".btn_info");
+
+let modalWindow = document.querySelector(".modal");
+
+let closeBtn = document.querySelector(".btn-close");
+
+detailsBtns.forEach((btn) =>
+  btn.addEventListener("click", function () {
+    modalWindow.classList.add("show");
+  })
+);
+
+closeBtn.addEventListener("click", function () {
+  modalWindow.classList.remove("show");
+});
+
+// закрить когда нажимаешь на фоновий екран
+modalWindow.addEventListener("click", function (e) {
+  if (e.target === modalWindow) {
+    modalWindow.classList.remove("show");
+  }
+});
