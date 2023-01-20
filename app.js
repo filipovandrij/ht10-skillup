@@ -46,7 +46,6 @@ modalWindow.addEventListener("click", function (e) {
 
 $(document).ready(function () {
   $(".sliders").slick({
-    // setting-name: setting-value
     dots: true,
   });
 });
@@ -58,3 +57,55 @@ function showModalByScroll() {
   }
 }
 window.addEventListener("scroll", showModalByScroll);
+
+// work on lesson and add counter of cards
+
+const incrementBtns = document.querySelectorAll(".increment-btn");
+const decrementBtns = document.querySelectorAll(".decrement-btn");
+const productsCount = document.querySelectorAll(".product-quantity input");
+
+function Counter(incrementBtn, decrementBtn, inputField) {
+  this.domRefs = {
+    incrementBtn,
+    decrementBtn,
+    inputField,
+  };
+
+  this.toggleButtonState = function () {
+    let count = +this.domRefs.inputField.value;
+    this.domRefs.decrementBtn.disabled = count <= 0;
+    this.domRefs.incrementBtn.disabled = count >= 10;
+  };
+
+  this.increment = function () {
+    this.domRefs.inputField.value = +this.domRefs.inputField.value + 1;
+    this.toggleButtonState();
+  };
+
+  this.decrement = function () {
+    this.domRefs.inputField.value = +this.domRefs.inputField.value - 1;
+    this.toggleButtonState();
+  };
+
+  this.domRefs.incrementBtn.addEventListener(
+    "click",
+    this.increment.bind(this)
+  );
+  this.domRefs.decrementBtn.addEventListener(
+    "click",
+    this.decrement.bind(this)
+  );
+}
+
+let basicArrayOfCounters = [];
+
+productsCount.forEach(
+  (item, i) =>
+    (basicArrayOfCounters[i] = new Counter(
+      incrementBtns[i],
+      decrementBtns[i],
+      item
+    ))
+);
+
+const counter1 = new Counter(incrementBtns, decrementBtns, productsCount);

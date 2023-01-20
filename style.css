@@ -640,3 +640,37 @@ font-weight: 300;
 .slick-dots li.slick-active button:before{
     background-color: #fff;
 }
+
+.product-quantity{
+    display: flex;
+    text-align: center;
+    margin-top: 20px;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.product-quantity input{
+    margin: 0 5px;
+    height: auto;
+    width: auto;
+    border: 1px solid black;
+    background: #fff;
+}
+.product-quantity button{
+    margin-right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    width: 20px;
+    background: #fff;
+    border: none;
+    padding: auto;
+}
+
+.increment-btn, .decrement-btn{
+font-size: 20px;
+font-weight: 400;
+color: black;
+
+}
